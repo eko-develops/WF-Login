@@ -6,5 +6,17 @@ namespace LoginForm
         {
             InitializeComponent();
         }
+
+        private void loginButton_Click(object sender, EventArgs e)
+        {
+            string username;
+            string password;
+
+            username = usernameField.Text;
+            password = passwordField.Text;
+
+
+            Console.WriteLine(username + ":" + password);
+        }
     }
 }
